@@ -7,7 +7,7 @@ section .text
 _start:
     push 20
     push 2
-    call divide_until_0
+    call sum_until_30
     mov [abc], eax
 
     mov ecx, 10
